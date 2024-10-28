@@ -24,8 +24,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       nextra-theme-docs:
-        specifier: ^2.13.1
-        version: 2.13.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
+        specifier: ^3.1.2
+        version: 3.1.2(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -60,10 +60,6 @@ packages:
 
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
-
-  '@babel/runtime@7.16.7':
-    resolution: {integrity: sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==}
-    engines: {node: '>=6.9.0'}
 
   '@braintree/sanitize-url@7.1.0':
     resolution: {integrity: sha512-o+UlMLt49RvtCASlOMW0AkHnabN9wR9rwCCherxO0yG4Npy34GkvrAqdXQvrhNs+jh+gkK8gB8Lf05qL/O7KWg==}
@@ -106,13 +102,6 @@ packages:
 
   '@formatjs/intl-localematcher@0.5.6':
     resolution: {integrity: sha512-roz1+Ba5e23AHX6KUAWmLEyTRZegM5YDuxuvkHCyK3RJddf/UXB2f+s7pOMm9ktfPGla0g+mQXOn5vsuYirnaA==}
-
-  '@headlessui/react@1.7.13':
-    resolution: {integrity: sha512-9n+EQKRtD9266xIHXdY5MfiXPDfYwl7zBM7KOx2Ae3Gdgxy8QML1FkCMjq6AsOf0l6N9uvI4HcFtuFlenaldKg==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      react: ^16 || ^17 || ^18
-      react-dom: ^16 || ^17 || ^18
 
   '@headlessui/react@2.2.0':
     resolution: {integrity: sha512-RzCEg+LXsuI7mHiSomsu/gBJSjpupm6A1qIZ5sWjd7JhARNlMiSA4kKfJpCKwU9tE+zMRterhhrP74PvfJrpXQ==}
@@ -298,9 +287,6 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
-
-  '@popperjs/core@2.11.6':
-    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
 
   '@react-aria/focus@3.18.4':
     resolution: {integrity: sha512-91J35077w9UNaMK1cpMUEFRkNNz0uZjnSwiyBCFuRdaVuivO53wNC9XtWSDNDdcO5cGy87vfJRVAiyoCn/mjqA==}
@@ -590,8 +576,8 @@ packages:
     resolution: {integrity: sha512-e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==}
     engines: {node: ^12.20.0 || >=14}
 
-  compute-scroll-into-view@2.0.3:
-    resolution: {integrity: sha512-mj/AjC7WqXeVlUB6zUq5Qrivb6et0kyasDQcbCWLDusYUqaXng+BfOnhCdRqPOa5/dWNn5e9+u40H6w2BYRdNQ==}
+  compute-scroll-into-view@3.1.0:
+    resolution: {integrity: sha512-rj8l8pD4bJ1nx+dAkMhV1xB5RuZEyVysfxJqB1pRchh1KVvwOv9b7CGB8ZfjTImVv2oF+sYMUkMZq6Na5Ftmbg==}
 
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
@@ -905,8 +891,8 @@ packages:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
 
-  flexsearch@0.7.31:
-    resolution: {integrity: sha512-XGozTsMPYkm+6b5QL3Z9wQcJjNYxp0CYn3U1gO7dwD6PAqU1SVWZxI9CCg3z+ml3YfqdPnrBehaBrnH2AGKbNA==}
+  flexsearch@0.7.43:
+    resolution: {integrity: sha512-c5o/+Um8aqCSOXGcZoqZOm+NqtVwNsvVpWv6lfmSclU954O3wvQKxxK8zj74fPaSJbXpSLTs4PRhh+wnoCXnKg==}
 
   focus-visible@5.2.0:
     resolution: {integrity: sha512-Rwix9pBtC1Nuy5wysTmKy+UjbDJpIfg8eHjw0rjZ1mX4GNLz1Bmd16uDpI3Gk1i70Fgcs8Csg2lPm8HULFg9DQ==}
@@ -932,12 +918,6 @@ packages:
   get-stream@3.0.0:
     resolution: {integrity: sha512-GlhdIUuVakc8SJ6kK0zAFbiGzRFzNnY4jUuEbV9UROo4Y+0Ny4fjvcZFVTeDA4odpFyOQzaw6hXukJSq/f28sQ==}
     engines: {node: '>=4'}
-
-  git-up@7.0.0:
-    resolution: {integrity: sha512-ONdIrbBCFusq1Oy0sC71F5azx8bVkvtZtMJAsv+a6lz5YAmbNnLD6HAB4gptHZVLPR8S2/kVN6Gab7lryq5+lQ==}
-
-  git-url-parse@13.1.0:
-    resolution: {integrity: sha512-5FvPJP/70WkIprlUZ33bm4UAaFdjcLkJLpWft1BeZKqwR0uhhNGoKwlUaPtVb4LxCSQ++erHapRak9kWGj+FCA==}
 
   github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
@@ -1093,9 +1073,6 @@ packages:
     resolution: {integrity: sha512-NXRbBtUdBioI73y/HmOhogw/U5msYPC9DAtGkJXeFcFWSFZw0mCUsPxk/snTuJHzNKA8kLBK4rH97RMB1BfCXw==}
     engines: {node: '>=12'}
 
-  is-ssh@1.4.0:
-    resolution: {integrity: sha512-x7+VxdxOdlV3CYpjvRLBv5Lo9OJerlYanjwFrPR9fuGPjCiNiCzFgAWpiLAohSbsnH4ZAys3SBh+hq5rJosxUQ==}
-
   is-stream@1.1.0:
     resolution: {integrity: sha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN+rqdQ==}
     engines: {node: '>=0.10.0'}
@@ -1173,9 +1150,6 @@ packages:
     resolution: {integrity: sha512-rqRix3/TWzE9rIoFGIn8JmsVfhiuC8VIQ8IdX5TfzmeBucdY05/0UlzKaw0eVtpcN/OdVFpBk7CjKGo9iHJ/zA==}
     engines: {node: '>= 18'}
     hasBin: true
-
-  match-sorter@6.3.1:
-    resolution: {integrity: sha512-mxybbo3pPNuA+ZuCUhm5bwNkXrJTbsk5VWbR5wiwz/GC6LIiegBGn2w3O08UG/jdbYLinw51fSQ5xNU1U3MgBw==}
 
   mathjax-full@3.2.2:
     resolution: {integrity: sha512-+LfG9Fik+OuI8SLwsiR02IVdjcnRCy5MufYLi0C3TdMT56L/pjB0alMVGgoWJF8pN9Rc7FESycZB9BMNWIid5w==}
@@ -1393,19 +1367,11 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  next-seo@6.0.0:
-    resolution: {integrity: sha512-jKKt1p1z4otMA28AyeoAONixVjdYmgFCWwpEFtu+DwRHQDllVX3RjtyXbuCQiUZEfQ9rFPBpAI90vDeLZlMBdg==}
+  next-themes@0.3.0:
+    resolution: {integrity: sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==}
     peerDependencies:
-      next: ^8.1.1-canary.54 || >=9.0.0
-      react: '>=16.0.0'
-      react-dom: '>=16.0.0'
-
-  next-themes@0.2.1:
-    resolution: {integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==}
-    peerDependencies:
-      next: '*'
-      react: '*'
-      react-dom: '*'
+      react: ^16.8 || ^17 || ^18
+      react-dom: ^16.8 || ^17 || ^18
 
   next@13.5.4:
     resolution: {integrity: sha512-+93un5S779gho8y9ASQhb/bTkQF17FNQOtXLKAj3lsNgltEcF0C5PMLLncDmH+8X1EnJH1kbqAERa29nRXqhjA==}
@@ -1422,13 +1388,13 @@ packages:
       sass:
         optional: true
 
-  nextra-theme-docs@2.13.1:
-    resolution: {integrity: sha512-mckNuKa0AmBbRdPCJ/OQ55KZx5MGH8moomMHYB3XVGXQqmXimOq1/2WZQiBdFx9u43KtfEvqZbQE8oGDIrfIsQ==}
+  nextra-theme-docs@3.1.2:
+    resolution: {integrity: sha512-Y/dqqVtC41b+4gTH59QTTqb+VKbDRtlQsXjpMkZThGFIqEWlpxgIHqUgWQNAn+yaEkDSvDMqHM/jHf0JRGZn9w==}
     peerDependencies:
-      next: '>=9.5.3'
-      nextra: 2.13.1
-      react: '>=16.13.1'
-      react-dom: '>=16.13.1'
+      next: '>=13'
+      nextra: 3.1.2
+      react: '>=18'
+      react-dom: '>=18'
 
   nextra@3.1.1:
     resolution: {integrity: sha512-IIhIZGSoLCVA/UTKA0Z+pmN64M4j/Ga9E9S7rrfPT44H+Ki1gALJJOahxhzAGllhvCvVOPm/KTzU66kKWAMrwg==}
@@ -1493,12 +1459,6 @@ packages:
 
   parse-numeric-range@1.3.0:
     resolution: {integrity: sha512-twN+njEipszzlMJd4ONUYgSfZPDxgHhT9Ahed5uTigpQn90FggW4SA/AIPq/6a149fTbE9qBEcSwE3FAEp6wQQ==}
-
-  parse-path@7.0.0:
-    resolution: {integrity: sha512-Euf9GG8WT9CdqwuWJGdf3RkUcTBArppHABkO7Lm8IzRQp0e2r/kkFnmhu4TSK30Wcu5rVAZLmfPKSBBi9tWFog==}
-
-  parse-url@8.1.0:
-    resolution: {integrity: sha512-xDvOoLU5XRrcOZvnI6b8zA6n9O9ejNk/GExuz1yBuWUGn9KA97GI6HTs6u02wKara1CeVmZhH+0TZFdWScR89w==}
 
   parse5@7.1.2:
     resolution: {integrity: sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==}
@@ -1591,9 +1551,6 @@ packages:
   property-information@6.1.1:
     resolution: {integrity: sha512-hrzC564QIl0r0vy4l6MvRLhafmUowhO/O3KgVSoXIbbA2Sz4j8HGpJc6T2cubRVwMwpdiG/vKGfhT4IixmKN9w==}
 
-  protocols@2.0.1:
-    resolution: {integrity: sha512-/XJ368cyBJ7fzLMwLKv1e4vLxOju2MNAIokcr7meSaNcVbWz/CPcW22cP04mwxOErdA5mwjA8Q6w/cdAQxVn7Q==}
-
   pseudomap@1.0.2:
     resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
 
@@ -1635,9 +1592,6 @@ packages:
 
   recma-stringify@1.0.0:
     resolution: {integrity: sha512-cjwII1MdIIVloKvC9ErQ+OgAtwHBmcZ0Bg4ciz78FtbT8In39aAYbaA7zvxQ61xVMSPE8WxhLwLbhif4Js2C+g==}
-
-  regenerator-runtime@0.13.9:
-    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
 
   regex@4.3.3:
     resolution: {integrity: sha512-r/AadFO7owAq1QJVeZ/nq9jNS1vyZt+6t1p/E59B56Rn2GCya+gr1KSyOzNL/er+r+B7phv5jG2xU2Nz1YkmJg==}
@@ -1688,9 +1642,6 @@ packages:
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
 
-  remove-accents@0.4.2:
-    resolution: {integrity: sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA==}
-
   resolve@1.22.2:
     resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
     hasBin: true
@@ -1729,8 +1680,8 @@ packages:
   scheduler@0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
 
-  scroll-into-view-if-needed@3.0.3:
-    resolution: {integrity: sha512-QoCH0lVw0tbA7Rl6sToH7e1tO3n95Oi6JgBgC8hEpNNZUC91MfasJ/4E1ZdbzGueNDZ+Y7ObfRaelKUgTyPbJA==}
+  scroll-into-view-if-needed@3.1.0:
+    resolution: {integrity: sha512-49oNpRjWRvnU8NyGVmUaYG4jtTkNonFZI86MmGRDqBphEK2EXT9gdEUoQPZhuBM8yWHxCWbobltqYO5M4XrUvQ==}
 
   section-matter@1.0.0:
     resolution: {integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==}
@@ -2037,10 +1988,6 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@babel/runtime@7.16.7':
-    dependencies:
-      regenerator-runtime: 0.13.9
-
   '@braintree/sanitize-url@7.1.0': {}
 
   '@chevrotain/cst-dts-gen@11.0.3':
@@ -2088,12 +2035,6 @@ snapshots:
   '@formatjs/intl-localematcher@0.5.6':
     dependencies:
       tslib: 2.4.0
-
-  '@headlessui/react@1.7.13(react-dom@18.2.0(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      client-only: 0.0.1
-      react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
 
   '@headlessui/react@2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -2264,8 +2205,6 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
-
-  '@popperjs/core@2.11.6': {}
 
   '@react-aria/focus@3.18.4(react@18.3.1)':
     dependencies:
@@ -2576,7 +2515,7 @@ snapshots:
 
   commander@9.2.0: {}
 
-  compute-scroll-into-view@2.0.3: {}
+  compute-scroll-into-view@3.1.0: {}
 
   concat-map@0.0.1: {}
 
@@ -2919,7 +2858,7 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  flexsearch@0.7.31: {}
+  flexsearch@0.7.43: {}
 
   focus-visible@5.2.0: {}
 
@@ -2935,15 +2874,6 @@ snapshots:
   function-bind@1.1.1: {}
 
   get-stream@3.0.0: {}
-
-  git-up@7.0.0:
-    dependencies:
-      is-ssh: 1.4.0
-      parse-url: 8.1.0
-
-  git-url-parse@13.1.0:
-    dependencies:
-      git-up: 7.0.0
 
   github-slugger@2.0.0: {}
 
@@ -3184,10 +3114,6 @@ snapshots:
 
   is-plain-obj@4.0.0: {}
 
-  is-ssh@1.4.0:
-    dependencies:
-      protocols: 2.0.1
-
   is-stream@1.1.0: {}
 
   isexe@2.0.0: {}
@@ -3250,11 +3176,6 @@ snapshots:
   markdown-table@3.0.2: {}
 
   marked@13.0.3: {}
-
-  match-sorter@6.3.1:
-    dependencies:
-      '@babel/runtime': 7.16.7
-      remove-accents: 0.4.2
 
   mathjax-full@3.2.2:
     dependencies:
@@ -3797,15 +3718,8 @@ snapshots:
       react: 18.3.1
       react-dom: 18.2.0(react@18.3.1)
 
-  next-seo@6.0.0(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
+  next-themes@0.3.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
-      next: 13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
-
-  next-themes@0.2.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
-    dependencies:
-      next: 13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.2.0(react@18.3.1)
 
@@ -3834,24 +3748,18 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextra-theme-docs@2.13.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
+  nextra-theme-docs@3.1.2(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@headlessui/react': 1.7.13(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
-      '@popperjs/core': 2.11.6
+      '@headlessui/react': 2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       clsx: 2.0.0
       escape-string-regexp: 5.0.0
-      flexsearch: 0.7.31
-      focus-visible: 5.2.0
-      git-url-parse: 13.1.0
-      intersection-observer: 0.12.2
-      match-sorter: 6.3.1
+      flexsearch: 0.7.43
       next: 13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
-      next-seo: 6.0.0(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
-      next-themes: 0.2.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
+      next-themes: 0.3.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       nextra: 3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       react: 18.3.1
       react-dom: 18.2.0(react@18.3.1)
-      scroll-into-view-if-needed: 3.0.3
+      scroll-into-view-if-needed: 3.1.0
       zod: 3.22.3
 
   nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3):
@@ -3961,14 +3869,6 @@ snapshots:
 
   parse-numeric-range@1.3.0: {}
 
-  parse-path@7.0.0:
-    dependencies:
-      protocols: 2.0.1
-
-  parse-url@8.1.0:
-    dependencies:
-      parse-path: 7.0.0
-
   parse5@7.1.2:
     dependencies:
       entities: 4.5.0
@@ -4045,8 +3945,6 @@ snapshots:
 
   property-information@6.1.1: {}
 
-  protocols@2.0.1: {}
-
   pseudomap@1.0.2: {}
 
   queue-microtask@1.2.3: {}
@@ -4104,8 +4002,6 @@ snapshots:
       estree-util-to-js: 2.0.0
       unified: 11.0.3
       vfile: 6.0.1
-
-  regenerator-runtime@0.13.9: {}
 
   regex@4.3.3: {}
 
@@ -4222,8 +4118,6 @@ snapshots:
       mdast-util-to-markdown: 2.1.0
       unified: 11.0.3
 
-  remove-accents@0.4.2: {}
-
   resolve@1.22.2:
     dependencies:
       is-core-module: 2.11.0
@@ -4278,9 +4172,9 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  scroll-into-view-if-needed@3.0.3:
+  scroll-into-view-if-needed@3.1.0:
     dependencies:
-      compute-scroll-into-view: 2.0.3
+      compute-scroll-into-view: 3.1.0
 
   section-matter@1.0.0:
     dependencies:
