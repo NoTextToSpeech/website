@@ -18,9 +18,9 @@ import {
 /** @type {import('nextra-theme-docs').DocsThemeConfig} */
 const themeConfig = {
   project: {
-    link: "https://github.com/NoTextToSpeech/ntts-site",
+    link: "https://github.com/NoTextToSpeech/website",
   },
-  docsRepositoryBase: "https://github.com/NoTextToSpeech/ntts-site/blob/main",
+  docsRepositoryBase: "https://github.com/NoTextToSpeech/website/blob/main",
   useNextSeoProps() {
     return {
       titleTemplate: "%s – NTTS",
