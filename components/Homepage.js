@@ -8,16 +8,13 @@ import ScamsIcon from './icons/scams';
 const Card = ({ title, description, href, icon: Icon }) => (
   <Link
     href={href}
-    className="block p-6 bg-dark-card border border-dark-border rounded-lg transition-all duration-200 ease-in-out hover:border-ntts-blue hover:scale-[1.02] hover:shadow-lg hover:shadow-ntts-blue/10"
+    className="flex flex-col justify-between p-6 bg-dark-card border-2 border-ntts-blue-light rounded-lg transition-all duration-200 ease-in-out hover:border-ntts-blue-hover hover:scale-[1.02] hover:shadow-lg hover:shadow-ntts-blue/10 h-32"
   >
     <div className="flex items-center mb-2">
-      {/* Using direct color class: text-ntts-blue */}
-      {Icon && <div className="text-ntts-blue">{<Icon />}</div>}
-      {/* Using direct color class: text-dark-text */}
-      <h3 className="ml-3 text-xl font-bold text-dark-text">{title}</h3>
+      {Icon && <div className="text-[#253540]">{<Icon />}</div>}
+      <h3 className="ml-3 text-xl font-bold text-[#253540]">{title}</h3>
     </div>
-    {/* Using direct color class: text-dark-text-secondary */}
-    <p className="text-dark-text-secondary">{description}</p>
+    <p className="text-[#253540]">{description}</p>
   </Link>
 );
 
@@ -37,12 +34,10 @@ export default function Homepage() {
   return (
     <div className={containerClasses}>
       <div className="text-center mb-12">
-        {/* Using direct color class: text-ntts-blue */}
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-ntts-blue mb-4">
           No Text To Speech
         </h1>
-        {/* Using direct color class: text-dark-text-secondary */}
-        <p className="text-lg md:text-xl text-dark-text-secondary max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl font-bold text-dark-text-secondary max-w-2xl mx-auto">
           The official community hub. Find our rules, guides, and important information.
         </p>
       </div>
