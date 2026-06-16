@@ -13,6 +13,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "focus-visible": "^5.2.0",
+    "framer-motion": "^12.23.12",
     "intersection-observer": "^0.12.2",
     "next": "^13.5.4",
     "next-plausible": "^3.12.2",

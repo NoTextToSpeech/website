@@ -4,17 +4,21 @@ import DiscordIcon from './icons/discord';
 import FAQIcon from './icons/faq';
 import RulesIcon from './icons/rules';
 import ScamsIcon from './icons/scams';
+import AnimatedTitle from './AnimatedTitle';
 
 const Card = ({ title, description, href, icon: Icon }) => (
   <Link
     href={href}
-    className="flex flex-col justify-between p-6 bg-dark-card border-2 border-ntts-blue-light rounded-lg transition-all duration-200 ease-in-out hover:border-ntts-blue-hover hover:scale-[1.02] hover:shadow-lg hover:shadow-ntts-blue/10 h-32"
+    className="flex flex-col justify-between p-6 bg-gradient-to-r from-gray-800 to-gray-700 border border-gray-600 rounded-xl transition-all duration-300 ease-out hover:border-ntts-blue-light/50 hover:scale-[1.02] hover:shadow-xl hover:shadow-gray-900/70 h-32 group relative overflow-hidden"
   >
-    <div className="flex items-center mb-2">
-      {Icon && <div className="text-[#253540]">{<Icon />}</div>}
-      <h3 className="ml-3 text-xl font-bold text-[#253540]">{title}</h3>
+    {/* Shimmer effect */}
+    <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-12" />
+    
+    <div className="flex items-center mb-2 relative z-10">
+      {Icon && <div className="text-ntts-blue mr-3"><Icon /></div>}
+      <h3 className="text-xl font-bold text-ntts-blue">{title}</h3>
     </div>
-    <p className="text-[#253540]">{description}</p>
+    <p className="text-dark-text-secondary text-sm relative z-10">{description}</p>
   </Link>
 );
 
@@ -34,10 +38,9 @@ export default function Homepage() {
   return (
     <div className={containerClasses}>
       <div className="text-center mb-12">
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-ntts-blue mb-4">
-          No Text To Speech
-        </h1>
-        <p className="text-xl md:text-2xl font-bold text-dark-text-secondary max-w-2xl mx-auto">
+        <AnimatedTitle />
+        <br />
+        <p className="text-xl md:text-2xl font-bold text-dark-text-secondary max-w-2xl mx-auto px-4">
           The official community hub. Find our rules, guides, and important information.
         </p>
       </div>

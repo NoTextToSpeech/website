@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 import Logo from "./components/icons/logo";
-import Ntts from "./components/icons/ntts";
 import useLocalesMap from "./components/use-locales-map"; 
 import {
   editTextMap,
@@ -112,7 +111,9 @@ const themeConfig = {
     );
   },
 
-  footer: "",
+  footer: {
+    text: null,
+  },
 
   gitTimestamp({ timestamp }) {
     const { locale } = useRouter();
